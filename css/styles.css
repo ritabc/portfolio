@@ -1,0 +1,12 @@
+.about img {
+  max-width: 100%;
+}
+
+.project {
+  width: 50%;
+  float: left;
+}
+
+.project img {
+  max-width: 100%;
+}
