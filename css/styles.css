@@ -25,3 +25,12 @@ figcaption {
 span.title {
   display: inline;
 }
+
+.about h3 {
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.jumbotron-fluid {
+  height: 75px;
+}

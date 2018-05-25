@@ -7,6 +7,7 @@ A portfolio page to showcase multiple sites created.
 
 ## To access this project on GitHub
 Here is [this project's GitHub Repository](https://github.com/ritabc/portfolio)
+Here is [the project hosted on GitHub](https://ritabc.github.io/portfolio/)
 
 ## Known bugs
 Please contact the author with any bugs found.
