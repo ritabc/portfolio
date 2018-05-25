@@ -1,100 +1,111 @@
 <!DOCTYPE html>
+<html>
 <head>
-  <link=href="css/boostrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+  <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
-  <div class="container">
-    <h1>Rita Bennett-Chew</h1>
-    <img src="img/profile.jpg" alt="Rita's profile picture">
-    <div class="about">
-      <h2>About</h2>
-      <h3>Background</h3>
-      <p>Rita is a North Carolinian studying web development at Epicodus in Portland.</p>
-      <h3>Interests</h3>
-      <p>Rita enjoys these activities:</p>
-      <ul>
-        <li>Contra Dancing</li>
-        <li>Playing with Dogs</li>
-        <li>Sewing and Knitting</li>
-        <li>Lounging in Hammocks</li>
-        <li>Making Cakes</li>
-      </ul>
-      </p>Rita also works to help create an intentional ecovillage and farm in the heart of North Carolina, called <a href="http://hartsmill.org"> Hart's Mill.</a>
-      <h3>Skills</h3>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Boostrap</li>
-        <li>Git and GitHub</li>
-        <li>WordPress</li>
-      </ul>
-      <h3>Experience</h3>
-      <div class="experience">
-        <ol>
-          <li>CORe Investigative Solutions, <span class="position">Public Records Research Team Lead</span></li>
-          <li>CriminalRecordCheck.com<span class="position">Licensing Researcher</span></li>
-        </ol>
-      </div>
+  <div class="container-fluid">
+    <div class="jumbotron-fluid">
+      <h1>Rita Bennett-Chew</h1>
+      <h2 class="subheading">A current student at Epicodus</h2>
     </div>
-    <div class="projects">
-      <h2>Projects</h2>
-      <div class="wiki">
-        <h3>Wikipedia Clone</h3>
-        <p><em>Created by Kevin Ahn and Rita Bennett-Chew</em></p>
-        <p><strong class="description">A clone of the Wikipedia home page</strong></p>
-        <img src="img/wiki-page-ss.png" als="A photo of the project">
-        <h4>Skills Utilitized:</h4>
-        <ul>
-          <li>HTML</li>
-          <li>CSS, including Boostrap</li>
-        </ul>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="about">
+          <h2>About Rita</h2>
+          <img src="img/profile.jpg" alt="Rita's profile picture">
+          <h3>Background</h3>
+          <p>Rita is currently a North Carolinian studying web development at Epicodus in Portland.</p>
+          <h3>Interests</h3>
+          <p>Rita enjoys these activities:</p>
+          <ul>
+            <li>Contra Dancing</li>
+            <li>Playing with Dogs</li>
+            <li>Sewing and Knitting</li>
+            <li>Lounging in Hammocks</li>
+            <li>Making Cakes</li>
+          </ul>
+          </p>Rita also works to help create an intentional ecovillage and farm in the heart of North Carolina, called <a href="http://hartsmill.org"> Hart's Mill.</a>
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Boostrap</li>
+            <li>Git and GitHub</li>
+            <li>WordPress</li>
+          </ul>
+          <h3>Experience</h3>
+          <div class="experience">
+            <ol>
+              <li>CORe Investigative Solutions, <span class="position">Public Records Research Team Lead</span></li>
+              <li>CriminalRecordCheck.com, <span class="position">Licensing Researcher</span></li>
+            </ol>
+          </div>
+        </div>
       </div>
-      <div class="alaska">
-        <h3>Vacation to Alaska Site</h3>
-        <p><em>Created by Kevin Ahn and Rita Bennett-Chew</em></p>
-        <p><strong class="description">A site advertising an Alaska vacation</strong></p>
-        <img src="img/vacation-site-page-ss.png" als="A photo of the project">
-        <h4>Skills Utilitized:</h4>
-        <ul>
-          <li>HTML</li>
-          <li>CSS, including Boostrap</li>
-        </ul>
-      </div>
-      <div class"band-decorator">
-        <h3>A Rock Band and an Interior Decorator</h3>
-        <p><em>Created by Kelli McCloskey and Rita Bennett-Chew</em></p>
-        <p><strong class="description">A site for a band and an interior decorator</strong></p>
-        <img src="img/band-page-ss.png" als="A photo of the project">
-        <img src="img/decorator-page-ss.png" als="A photo of the project">
-        <h4>Skills Utilitized:</h4>
-        <ul>
-          <li>HTML</li>
-          <li>CSS, including box model and floats</li>
-        </ul>
-      </div>
-      <div class"fernview">
-        <h3>FernView</h3>
-        <p><em>Created by Devin Mounts and Rita Bennett-Chew</em></p></p>
-        <p><strong class="description">A site for the intentional community FernView</strong></p>
-        <img src="img/fernview-page-ss.png" als="A photo of the project">
-        <img src="img/fernview2-page-ss.png" als="A photo of the project">
-        <h4>Skills Utilitized:</h4>
-        <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-        </ul>
-      </div>
-      <div class"cookie-recipe">
-        <h3>Cooke Recipe</h3>
-        <p><em>Created by Brandon Betts and Rita Bennett-Chew</em></p>
-        <p><strong class="description">A site for a cookie recipe</strong></p>
-        <img src="img/cookie-recipe-page-ss.png" als="A photo of the project">
-        <h4>Skills Utilitized:</h4>
-        <ul>
-          <li>HTML</li>
-        </ul>
+      <div class="col-md-8">
+        <div class="projects">
+          <h2>Projects</h2>
+          <div class="wiki">
+            <h3>Wikipedia Clone</h3>
+            <p><em>Created by Kevin Ahn and Rita Bennett-Chew</em></p>
+            <p><strong class="description">A clone of the Wikipedia home page</strong></p>
+            <img src="img/wiki-page-ss.png" als="A photo of the project">
+            <h4>Skills Utilitized:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS, including Boostrap</li>
+            </ul>
+          </div>
+          <div class="alaska">
+            <h3>Vacation to Alaska Site</h3>
+            <p><em>Created by Kevin Ahn and Rita Bennett-Chew</em></p>
+            <p><strong class="description">A site advertising an Alaska vacation</strong></p>
+            <img src="img/vacation-site-page-ss.png" als="A photo of the project">
+            <h4>Skills Utilitized:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS, including Boostrap</li>
+            </ul>
+          </div>
+          <div class"band-decorator">
+            <h3>A Rock Band and an Interior Decorator</h3>
+            <p><em>Created by Kelli McCloskey and Rita Bennett-Chew</em></p>
+            <p><strong class="description">A site for a band and an interior decorator</strong></p>
+            <img src="img/band-page-ss.png" als="A photo of the project">
+            <img src="img/decorator-page-ss.png" als="A photo of the project">
+            <h4>Skills Utilitized:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS, including box model and floats</li>
+            </ul>
+          </div>
+          <div class"fernview">
+            <h3>FernView</h3>
+            <p><em>Created by Devin Mounts and Rita Bennett-Chew</em></p></p>
+            <p><strong class="description">A site for the intentional community FernView</strong></p>
+            <img src="img/fernview-page-ss.png" als="A photo of the project">
+            <img src="img/fernview2-page-ss.png" als="A photo of the project">
+            <h4>Skills Utilitized:</h4>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class"cookie-recipe">
+            <h3>Cooke Recipe</h3>
+            <p><em>Created by Brandon Betts and Rita Bennett-Chew</em></p>
+            <p><strong class="description">A site for a cookie recipe</strong></p>
+            <img src="img/cookie-recipe-page-ss.png" als="A photo of the project">
+            <h4>Skills Utilitized:</h4>
+            <ul>
+              <li>HTML</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 </body>
+</html>
