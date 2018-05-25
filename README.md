@@ -6,4 +6,4 @@
 A portfolio page to showcase multiple sites Rita has created.
 
 ## To access this project on GitHub
-Here is (this project's GitHub Repository)[https://github.com/ritabc/portfolio]
+Here is [this project's GitHub Repository](https://github.com/ritabc/portfolio)
