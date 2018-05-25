@@ -3,7 +3,7 @@
   max-height: 200px;
 }
 
-.project {
+.col-md-6 {
   width: 40%;
   float: left;
   border: 2px solid darkgrey;
