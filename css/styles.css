@@ -10,3 +10,8 @@
 .container-fluid {
   width: 100%;
 }
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+}
